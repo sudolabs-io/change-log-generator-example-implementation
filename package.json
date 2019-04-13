@@ -1,0 +1,14 @@
+{
+  "name": "changelog-generator-example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "get-closed-issues": "node ./scripts/get-closed-issues.js",
+    "create-changelog": "node ./scripts/create-changelog.js",
+    "send-changelog-notification": "node ./scripts/send-changelog-notification.js"
+  },
+  "author": "Pavol Madar - Sudo ",
+  "license": "ISC"
+}
